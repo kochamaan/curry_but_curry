@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>curry but curry</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+  <a href="#l-main" class="screen-reader-text">本文までスキップ</a>
+  <header class="l-header p-slide-bottom">
+    <div class="l-header-nav">
+      <h1 class="header-primary">
+          <span class="screen-reader-text">curry but curry</span>
+          <a href="../index.html"><img src="../image/common/pc/header-logo.png" srcset="../image/common/pc/header-logo.png, ../image/common/pc/header-logo@2x.png 2x" alt="カリバカリー"></a>
+        </h1>
+      <nav id="l-header-nav_box">
+        <h2><span class="screen-reader-text">サイト内メニュー</span></h2>
+        <button type="button" class="button-hamburger js-button-hamburger" aria-controls="global-nav" aria-expanded="false">
+          <span class="hamburger">
+            <span class="screen-reader-text">メニューを開閉する</span>
+          </span>
+          <span class="hamburger-text">menu</span>
+        </button>
+        <div class="l-gloval-nav">
+          <ul id="global-nav" lang="en" class="l-header-nav_contents">
+            <li><a href="../menu">menu</a></li>
+            <li><a href="../staff">staff</a></li>
+            <li><a href="../space/">space</a></li>
+            <li><a href="index.html">contact</a></li>
+          </ul>
+          <ul lang="en" class="l-header-nav_sns">
+            <li>
+              <a href="https://www.facebook.com/currybutcurry/" target="_blank"><img src="../image/common/pc/facebook-icon.png" srcset="../image/common/pc/facebook-icon.png, ../image/common/pc/facebook-icon@2x.png 2x" alt="facebook"><span class="screen-reader-text">facebook</span></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/currybutcurry" target="_blank"><img src="../image/common/pc/twitter-icon.png" srcset="../image/common/pc/twitter-icon.png, ../image/common/pc/twitter-icon@2x.png 2x" alt="twitter"><span class="screen-reader-text">twitter</span></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/currybutcurry/" target="_blank"><img src="../image/common/pc/instagram-icon.png" srcset="../image/common/pc/instagram-icon.png, ../image/common/pc/instagram-icon@2x.png 2x" alt="instagram"><span class="screen-reader-text">instagram</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="l-main">
+    <div class="p-hero">
+      <picture class="p-hero-image">
+        <source srcset="../image/contact/sp/mainvisual.png, ../image/contact/sp/mainvisual@2x.png 2x" media="(max-width: 767px)">
+        <source srcset="../image/contact/tab/mainvisual.png, ../image/contact/tab/mainvisual@2x.png 2x" media="(max-width: 1023px)">
+        <img src="../image/contact/pc/mainvisual.png" srcset="../image/contact/pc/mainvisual.png, ../image/contact/pc/mainvisual@2x.png 2x" alt="店内にある黒板メニュー">
+      </picture>
+      <div class="p-hero-body">
+        <h1><span class="p-hero-title">contact</span><span class="p-hero-subtitle">お問い合わせ</span></h1>
+      </div>
+    </div>
+
+    <div class="p-wrapper">
+      <figure class="section-top_image"><img src="../image/common/pc/logo-cover.png" srcset="../image/common/pc/logo-cover.png, ../image/common/pc/logo-cover@2x.png 2x" alt=""></figure>
+      <div class="p-top-text">
+        <p><span>貸し切りパーティーや展示会についてのご質問も承ります。</span><span>どなたさまもお気軽にお問い合わせください。</span></p>
+      </div>
+
+      <div class="l-grid l-contact">
+        <h2 class="v-title">feel to ask me</h2>
+        <form action="#" method="POST" class="l-contact__inner">
+          <dl class="p-contact__box">
+            <div class="p-contact-card">
+              <dt><label for="your_name">your name</label></dt>
+              <dd><input type="text" name="your_name" id="your_name" class="card-name"></dd>
+            </div>
+            <div class="p-contact-card">
+              <dt><label for="your_email">e-mail address</label></dt>
+              <dd><input type="email" name="your_email" id="your_email" class="card-mail"></dd>
+            </div>
+            <div class="p-contact-card">
+              <dt><label for="your_telphone">telphone</label></dt>
+              <dd><input type="tel" name="your_telphone" id="your_telphone" class="card-tel"></dd>
+            </div>
+            <div class="p-contact-card">
+              <dt><label for="message">message</label></dt>
+              <dd><textarea name="message" id="message" cols="30" rows="10" class="card-message"></textarea></dd>
+            </div>
+          </dl>
+          <input type="submit" value="submit" class="card-submit">
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="l-footer">
+    <div class="l-footer-wrapper">
+      <h2><span class="screen-reader-text">curry but curry</span><a href="../"><img src="../mage/common/pc/footer-logo.png" srcset="../image/common/pc/footer-logo.png, ../image/common/pc/footer-logo@2x.png 2x" alt="" class="footer-logo"></a></h2>
+      <address class="l-footer-address">
+        <ul>
+          <li>
+            142-0064<br>
+            東京都品川区旗の台2-6-10
+          </li>
+          <li>旗の台駅徒歩3分</li>
+          <li class="address-tel"><a href="tel:0363121121">03-6312-1121</a></li>
+          <li>lunch <time datetime="11:00:00">11:00</time>-<time datetime="14:00:00">14:00</time>（lo<time datetime="14:00:00">14:00</time>）</li>
+          <li>dinner <time datetime="18:00:00">18:00</time>-<time datetime="24:00:00">24:00</time>（lo<time datetime="23:30:00">23:30</time>）</li>
+          <li>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12975.537214651642!2d139.704515!3d35.6059204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95b4a1dc1ecb6c41!2scurry%20but%20curry!5e0!3m2!1sja!2sjp!4v1612403007884!5m2!1sja!2sjp" width="470" height="240" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </li>
+        </ul>
+      </address>
+      <ul lang="en" class="l-grid footer-nav_contents">
+        <li><a href="../menu">menu</a></li>
+        <li><a href="../staff/">staff</a></li>
+        <li><a href="../space/">space</a></li>
+        <li><a href="index.html">contact</a></li>
+      </ul>
+      <ul lang="en" class="l-grid footer-nav_sns">
+        <li>
+          <a href="https://www.facebook.com/currybutcurry/" target="_blank"><img src="../image/common/pc/facebook-icon.png" srcset="../image/common/pc/facebook-icon.png, ../image/common/pc/facebook-icon@2x.png 2x" alt="facebook"><span class="screen-reader-text">facebook</span></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/currybutcurry" target="_blank"><img src="../image/common/pc/twitter-icon.png" srcset="../image/common/pc/twitter-icon.png, ../image/common/pc/twitter-icon@2x.png 2x" alt="twitter"><span class="screen-reader-text">twitter</span></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/currybutcurry/" target="_blank"><img src="../image/common/pc/instagram-icon.png" srcset="../image/common/pc/instagram-icon.png, ../image/common/pc/instagram-icon@2x.png 2x" alt="instagram"><span class="screen-reader-text">instagram</span></a>
+        </li>
+      </ul>
+      <p class="l-footer-copyright"><small>&copy;<a href="contact/">curry but curry</a> All Rights Reserved.</small></p>
+    </div>
+  </footer>
+  <script src="../js/lib/jquery-1.12.1.min.js"></script>
+  <script src="../js/common.js"></script>
+
+  <script>
+    const boxes = document.querySelector(".p-hero");
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0
+    };
+    const observer = new IntersectionObserver(doWhenIntersect, options);
+    observer.observe(boxes);
+    function doWhenIntersect(e) {
+      if (e[0]['isIntersecting'] === false) {
+        document.querySelector('.p-slide-bottom').classList.add('show');
+      } else if (e[0]['isIntersecting'] === true) {
+        document.querySelector('.p-slide-bottom').classList.remove('show');
+      }
+    }
+
+    (function () {
+      $('#js-buttonHamburger').click(function () {
+        $('body').toggleClass('is-drawerActive');
+
+        if ($(this).attr('aria-expanded') == 'false') {
+          $(this).attr('aria-expanded', true);
+        } else {
+          $(this).attr('aria-expanded', false);
+        }
+      });
+    })();
+
+  </script>
+
+</body>
+</html>
